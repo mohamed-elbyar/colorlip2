@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+}
+.navbar img{
+    float: left;
+    padding: 20px;
+}
+.navbar nav{
+    float: left;
+   
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 40px;
+}
+.navright{
+    float: right;
+    
+}
+.navright h4{
+    float: left;
+    
+    
+    
+}
+.h42{
+    margin-top: 40px;
+}
+.navright h5{
+    float: left;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: red;
+}
+.h41{
+    padding: 20px;
+    border: 1px solid #B40000 ;
+    color: #B40000;
+   margin-right: 20px;
+   margin-top: 20px;
+    
+}
+.fix{
+    clear: both;
+}
+.fristpage {
+    width: 100%;
+   background-image: url(https://preview.colorlib.com/theme/lawyerlegal/assets/img/hero/h1_hero1.jpg) ;
+   height: 100vh;
+   padding: .5px;
+}
+.fristtext{
+    margin-top: 250px;
+    margin-left: 100px;
+   width: 40%;
+   animation:  style 2s;
+   
+}
+.fristtext h1{
+    color: 
+    RGB(255, 255, 255);
+    font-size: 70px;
+    font-weight: 400;
+    animation:  style1 1s ;
+}
+@keyframes style1{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.fristtext p{
+    color:RGB(255, 255, 255) ;
+    font-size: 22px;
+    font-weight:300 ;
+    animation: style2 1.5s;
+}
+@keyframes style2{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.fristtext button{
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: #B40000;
+    animation: style3 3s;
+}
+
+@keyframes style3{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.about{
+    width: 80%;
+    margin: auto;
+    
+}
+.about img{
+    margin-top: 100px;
+    
+
+}
+.textabout{
+    width: 40%;
+    float: right;
+    
+   margin-top: 150px;
+}
+.textabout h2{
+    color: 
+    RGB(45, 0, 0);
+    font-size: 46px;
+    font-weight: 400;
+    font-family: Baskervville
+    serif;
+    margin-bottom: 40px;
+}
+.p1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: 
+    RGB(45, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Baskervville
+    serif;
+    opacity: .75;
+}
+.p2{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: 
+    RGB(107, 90, 90);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 
+    Roboto,
+    sans-serif;
+    opacity: .5 ;
+}
+.textp2{
+    float: left;
+    }
+.text2 h4{
+    color: 
+    RGB(45, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+}
+.text2 p{
+    color: 
+    RGB(107, 90, 90);
+    font-size: 14px;
+    font-weight: 300;
+}
+.textp3{
+    padding-top: 10px;
+}
+.aboutimg2 img{
+  float: right;
+  margin-right: 65%;
+    margin-top: 10px;
+   padding-right: 30px;
+    
+}
+.about2{
+    text-align: center;
+    
+    background-color: #B40000;
+    width: 135px;
+    height: 150px;
+    position: absolute;
+    transform: translateY(-100px);
+    margin-left: 26%;
+    
+}
+.about2 h2 {
+    color: 
+    RGB(255, 255, 255);
+    font-size: 76px;
+    font-weight: 900;
+    font-family: Roboto Bold
+    Roboto Thin
+    Roboto Slab
+    Roboto Light
+    Roboto Black
+    ;
+}
+.about h4{
+    color: 
+    RGB(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+  font-family: Roboto Bold
+  Roboto Thin
+  Roboto Slab
+  Roboto Light
+  Roboto Black;
+}
+.fixed{
+    clear: both;
+    
+}
+.textpract{ 
+   
+    text-align: center;
+    align-items: center;
+}
+.pra1{
+    background-color: #F8F4F4;
+
+}
+.pract{
+    padding-top: 10%;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.texta{
+    width: 65%;
+    margin-top: 40px;
+    
+}
+.texta h3{
+color: 
+RGB(45, 0, 0);
+font-size:24px ;
+font-weight: 400;
+font-family:
+Roboto
+sans-serif ;
+}
+.texta p{
+color: RGB(102, 129, 106)
+;
+font-size: 20px;
+font-weight: 300;
+font-family: 
+Roboto
+sans-serif;
+}
+.pract h2{
+    text-align: center;
+    color:RGB(45, 0, 0) ;
+    font-size: 46px;
+    font-weight:400 ;
+    font-family:
+    Baskervville
+    serif ;
+}
+.pract1{
+   
+   width: 50%;
+   float: left;
+   padding: 5%;
+   background-color: white;
+
+}
+.pract2{
+   
+    width: 50%;
+    float: left;
+    padding: 5%;
+    background-color: white;
+    
+ }
+.pra2{
+    width: 50%; 
+     float: left;
+     padding: 5%;
+     background-color: white;
+}
+.pra3{
+    width: 50%; 
+     float: left;
+     padding: 5%;
+     background-color: white;
+}
+.pract1 img{
+    
+    margin-left: 130px;
+}
+.pract2 img{
+    
+    margin-left: 130px;
+}
+.pra2 img{
+    
+    margin-left: 130px;
+}.pra3 img{
+    
+    margin-left: 130px;
+}
+.formprct{
+    margin-left: 20px;
+    background-color: #B40000;
+    width: 33%;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    border-top-right-radius: 60px ;
+    padding: 30px;
+}
+.formprct h3 p{
+    
+    padding: 4.5%;
+   width: 500;
+   color: white;
+
+   
+}
+.name,.email,.famlylow,.textarea{
+    padding: 4.5%;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #B40000;
+    border: 1px solid white;
+}
+.button{
+    background-color:#FF6F00 ;
+    padding: 4.5%;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+}
+.textarae{
+    padding: 4.5%;
+    width: 300px;
+    color: white;
+    background-color: #B40000;
+    border: 1px solid white;
+}
+.formprct h3{
+color: RGB(255, 255, 255)
+;
+font-size:38px ;
+font-family:
+Baskervville
+serif ;
+font-weight:600 ;
+}
+.formprct p{
+    color:
+    RGB(255, 255, 255) ;
+    font-size:14px;
+    font-family:
+    Roboto
+    sans-serif ;
+    font-weight:300 ;
+}
+.fixing{
+    clear: both;
+}
+.fivepart{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.he2{
+    margin-top: 20px;
+   color: RGB(180, 0, 0) ;
+   font-family: 
+   Roboto
+   sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+}
+.prag1{
+    margin-top: 20px;
+    color: 
+    RGB(45, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    font-weight: 
+    Roboto
+    sans-serif;
+}
+.prag2{
+    margin-top: 20px;
+    color: RGB(107, 90, 90);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 
+    Roboto
+    sans-serif;
+}
+.fivepart button{
+    color: white;
+ background-color: #B40000;
+    width: 120px;
+    margin-block: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: none;
+}
+.brands {
+    width: 50%;
+    margin: auto;
+
+}
+.brands img{
+    margin: 30px;
+    animation: brands 2s;
+}
+@keyframes brands {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.comment{
+    margin-top: 2%;
+    width: 100%;
+    display:flex ;
+    color: white;
+    flex-direction:column;
+    align-items:last baseline;
+    background-image: url(https://preview.colorlib.com/theme/lawyerlegal/assets/img/gallery/section_bg1.jpg);
+    height: 50vh;
+}
+.comment2{
+    width: 30%;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+
+
+.comment2 h2{
+    color: RGB(255, 255, 255);
+    font-size:  46px; 
+    font-family:
+    Baskervville
+    serif ;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.comment2 p{
+    color: 
+    RGB(255, 255, 255);
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 
+    Roboto
+    sans-serif;
+    margin-bottom: 40px;
+}
+.ceo{
+    display: flex;
+   align-items: center;
+   padding: 5px;
+   
+}
+.ceotext h5{
+    padding: 5px;
+    color: RGBA(255, 255, 255, 0.8);
+    font-size:18px ;
+    font-weight: 300;
+    font-family: Roboto
+    sans-serif;
+}
+.news{
+    padding-top: 5%;
+    width: 35%;
+    margin: auto;
+ 
+}
+.news h2{
+
+    text-align: center;
+    font-size: 46px;
+    font-weight: 400;
+    color: 
+    RGB(45, 0, 0);
+    font-family:
+    Baskervville
+    serif;
+    margin-bottom: 20px;
+}
+.news p{ 
+    text-align: center;
+    font-size: 18px;
+    font-weight:300 ;
+    color: 
+    RGB(107, 90, 90);
+    font-family: Roboto
+    sans-serif
+    ;
+    margin-bottom: 50px;
+}
+
+.newsframe{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+ .textimg{background-color: white;
+    width: 25%;
+    position:absolute;
+    top: 3800px;
+    
+
+} 
+.textimg h2{
+    font-size: 24px;
+    font-family: Baskervville
+    serif;
+    font-weight: 400;
+}
+.textimg p{
+    margin-top: 5px;
+    color: 
+    RGB(107, 90, 90);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 
+    Roboto
+    sans-serif;
+}
+.textimg2{background-color: white;
+    width: 25%;
+    position:absolute; 
+    top: 3800px;
+    
+
+}
+.textimg2 h2{
+    font-size: 24px;
+    font-family: Baskervville
+    serif;
+    font-weight: 400;
+}
+.textimg2 p{
+    margin-top: 5px;
+    color: 
+    RGB(107, 90, 90);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 
+    Roboto
+    sans-serif;
+}
+.card{
+   
+    background-color:#EFE2E2;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+}
+.img{
+    display: flex;
+}
+.img img{
+    padding: 10px;
+}
+.textimgcard{
+    margin-top: 30px;
+    padding: 20px;
+}
+.textimgcard h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 
+    Roboto
+    sans-serif;
+    color: 
+    RGB(19, 46, 67);
+}
+.textimgcard p{
+    font-family:
+    Roboto
+    sans-serif ;
+    color: 
+    RGB(45, 0, 0);
+    font-size: 16px;
+    font-weight: 300;
+}
+.textcard{
+    display: flex;
+   
+}
+.textcard h4{
+    margin-top: 60px;
+    margin-right: 20px;
+    color: 
+    RGB(33, 37, 41);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 
+    Baskervville
+    serif;
+}
+
+.textcard h5{
+    width: 190px;
+    height: 30px;
+text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+   background-color: #B40000;
+    border: 1px solid black ;
+    border-radius: 20px;
+    margin-top: 60px;
+    color: 
+    RGB(33, 37, 41);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 
+    Baskervville
+    serif;
+}
+.footer{
+    background-color: #2D0000;
+    height: 50vh;
+}
+.footercontent{
+    width: 80%;
+    margin:auto;
+}
+.textfooter{
+    color: white;
+    width: 50%;
+    margin: auto;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.imgfoot{
+   
+    width: 20%;
+    margin: auto;
+    /* margin-top: 40px; */
+    margin-bottom: 30px;
+    padding: 5px;
+    
+}
+
+.listfooter{
+    color: white;
+    list-style: none;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.listfooter li {
+    padding:10px ;
+    
+}
+.confooter{
+    margin-top: 10px;
+ color: white;
+    display:inline-flex;
+   width: 50%;
+   margin-bottom: 20px;
+}
+.footer button{
+   float: right;
+    margin-top: 10px;
+    padding: 10px;
+    color: #B40000;
+    
+}
+
+.confooter p{
+    padding: 5px;
+}
+.footer i{
+    padding: 10px;
+}
+.pfooter{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+}
